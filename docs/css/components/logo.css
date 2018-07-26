@@ -1,0 +1,12 @@
+.logo {
+  display: block;
+  width: 20%;
+  height: 110px;
+  background: #5a9aa8;
+  transition: .2s; }
+  .logo:hover {
+    background: #89c39b; }
+  @media (max-width: 480px) {
+    .logo {
+      width: 40%;
+      margin: 0 auto; } }

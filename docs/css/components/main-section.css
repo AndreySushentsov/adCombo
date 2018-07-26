@@ -1,0 +1,32 @@
+main {
+  font-size: 0; }
+
+.main__wrapper {
+  position: relative;
+  margin-bottom: 30px; }
+
+.main-content {
+  width: 70%;
+  padding-right: 3%; }
+
+.main-content, .main-sidebar {
+  box-sizing: border-box;
+  font-size: 1rem;
+  display: inline-block; }
+  @media (max-width: 768px) {
+    .main-content, .main-sidebar {
+      display: block;
+      width: 95%;
+      margin: 0 auto; } }
+
+.main-sidebar {
+  width: 30%;
+  position: absolute;
+  height: 100%;
+  right: 0;
+  background: #8c5d79; }
+  @media (max-width: 768px) {
+    .main-sidebar {
+      position: relative;
+      width: 95%;
+      margin: 0 auto; } }
